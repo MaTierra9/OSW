@@ -63,9 +63,9 @@ var config = {
       alignment: "left",
       hidden: false,
       chapterDiv: divChapter1,
-      location: {
-        center: [-74, 40.725],
-        zoom: 10,
+      location: { 
+        center: [-73.869, 41.049],
+        zoom: 7,
         zoomSmall: 9,
         pitch: 0,
         bearing: 0,
@@ -123,17 +123,16 @@ var config = {
         zoomSmall: 14,
         pitch: 40,
         bearing: -7,
+
+        
       },
-      // mapAnimation: "flyTo",
-      // rotateAnimation: false,
-      // callback: "",
-      // onChapterEnter: [
-      //   {
-      //     layer: "medianIncome",
-      //     opacity: 0,
-      //     duration: 300,
-      //   },
-      // ],
+
+      
+      
+
+      
+         
+
       onChapterExit: [
         {
           layer: "medianIncome",
