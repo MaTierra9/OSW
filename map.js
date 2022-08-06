@@ -13,79 +13,6 @@ var map = new mapboxgl.Map({
   ],
 });
 
-// map.on("load", function () {
-//   map.addLayer(
-//     {
-//       id: "turnstileData",
-//       type: "circle",
-//       source: {
-//         type: "geojson",
-//         data: "data/turnstileData.geojson",
-//       },
-//       paint: {
-//         "circle-color": [
-//           "interpolate",
-//           ["linear"],
-//           ["get", "ENTRIES_DIFF"],
-//           -1,
-//           "#ff4400",
-//           -0.7,
-//           "#ffba31",
-//           -0.4,
-//           "#ffffff",
-//         ],
-//         "circle-stroke-color": "#4d4d4d",
-//         "circle-stroke-width": 0.5,
-//         "circle-radius": [
-//           "interpolate",
-//           ["exponential", 2],
-//           ["zoom"],
-//           10,
-//           ["interpolate", ["linear"], ["get", "ENTRIES_DIFF"], -1, 10, -0.4, 1],
-//           15,
-//           [
-//             "interpolate",
-//             ["linear"],
-//             ["get", "ENTRIES_DIFF"],
-//             -1,
-//             25,
-//             -0.4,
-//             12,
-//           ],
-//         ],
-//       },
-//     },
-//     ""
-//   );
-//   map.addLayer(
-//     {
-//       id: "medianIncome",
-//       type: "fill",
-//       source: {
-//         type: "geojson",
-//         data: "data/medianIncome.geojson",
-//       },
-//       paint: {
-//         "fill-color": [
-//           "step",
-//           ["get", "MHHI"],
-//           "#ffffff",
-//           20000,
-//           "#ccedf5",
-//           50000,
-//           "#99daea",
-//           75000,
-//           "#66c7e0",
-//           100000,
-//           "#33b5d5",
-//           150000,
-//           "#00a2ca",
-//         ],
-//       },
-//     },
-//     "waterway-shadow"
-//   );
-// });
 
 map.on("click", "turnstileData", function (e) {
   var entriesDiff = e.features[0].properties.ENTRIES_DIFF;
@@ -350,8 +277,8 @@ map.on("load", function () {
       "fill-color": [
         "match",
         ["get", "COMPANY"],
-        "Sunrise Wind, LLC", "#0047AB",
-        "Bay State Wind LLC", "#6193c7",
+        "Sunrise Wind, LLC", "#6b7081",
+        "Bay State Wind LLC", "#9ca3bd",
         "Beacon Wind LLC", "#6193c7",
         "Mayflower Wind Energy, LLC", "#6193c7",
         "Other", "#91b66e",
@@ -361,27 +288,14 @@ map.on("load", function () {
         "TotalEnergies Renewables USA, LLC", "#00008B",
 
        
-        "#ffffff",
+        "#d8d4d4",
       ],
      
   }
-    // 'paint': {
-    //     'fill-color': '#000000',
-    //     'fill-opacity': 1,
-    // }
+
 }, 'road-label-simple');
 
-// paint: {
-//   "fill-color": [
-//     "match",
-//     ["get", "Winner"],
-//     "Donald J Trump", "#cf635d",
-//     "Joseph R Biden Jr", "#6193c7",
-//     "Other", "#91b66e",
-//     "#ffffff",
-//   ],
-//   "fill-outline-color": "#ffffff",
-// // },
+
 
   scroller
     .setup({
