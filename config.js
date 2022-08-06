@@ -10,7 +10,7 @@ let descriptionDiv =
 
 "<p>Experts have consistently warned against potential displacement of birds and fishes from areas where offshore wind farms are constructed. They have rung alarm bells in states that host several of them such as Rhode Island and North Carolina, and are doing so now, in hopes of being listened to, in New York.</p>" +
 "<p>New York is playing catch-up with other states in adopting clean energy. Offshore wind farms are a vital component of that, with five currently pursued, and the White House committing to assist in fast tracking them as part of President Joe Biden’s broader clean energy agenda.</p>" +
-"<p><img src='images/states.jpg' style='width:650px;height:530px;>'</p>" +
+"<p> [CHART]</p>" +
 "<p>In the U.S., harnessing wind power is practically the only viable way to boost renewable energy output, Harrison Fell, senior researcher at Columbia’s Center on Global Energy Policy, said. For one, wind energy is cheaper than solar, and while prices of the latter have likewise plummeted in recent years, the country simply has no space to put up large swaths of solar energy farms.</p>" +
 "<p>Hydroelectric power plants are also not an option, Fell said. Dams used to house these plants are built on top of rivers and considered more environmentally destructive than erecting windmills. Maintaining them can also prove costly.</p>" +
 "<p>That made wind the go-to-choice for many states going green. In New York, the state government is likewise touting wind farms as an economic bonanza estimated to contribute $12 billion in economic activity and generate over 6,800 jobs just from building them. </p>" +
