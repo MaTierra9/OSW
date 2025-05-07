@@ -60,7 +60,7 @@ let divChapter5 =
   "<p> McWilliams agreed. “I’m saying the effect would still be positive, but just be careful where you put it,” he said.</p>" 
   ;
 var config = {
-  style: "mapbox://styles/adnoticias/cmae63g66004101s884694lay",
+  style: "mapbox://styles/adnoticias/cmaek5iex00pd01si658zh8or",
   accessToken: "pk.eyJ1IjoiYWRub3RpY2lhcyIsImEiOiJjbWFlamJ5enEwODR3MmpwenExN2J5cXNqIn0.K8wE_YrKJOW36r9_x_YG7Q",
   showMarkers: false,
   markerColor: "#3FB1CE",
