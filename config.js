@@ -1,15 +1,15 @@
-let topTitleDiv = "<h4>Points Unknown | Tutorial 10 | Mapbox Storytelling</h4>";
+let topTitleDiv = "<h4>Publicado el 7 de mayo de 2025</h4>";
 
 let titleDiv =
-  "<h1>New York's Offshore Wind Projects Carry Both Good and Bad News for the City</h1>";
+  "<h1>Rancho Palma: El montaje detrás de la Operación Bastión</h1>";
 
-let bylineDiv = "<p>By Prinz Parungao Magtulis, Richard Annerquaye Abbey and Sarah Grevy Gotfredsen </p>";
+let bylineDiv = "<p>Investigación y visualización: Ivan Ortiz </p>";
 
 let descriptionDiv =
-"<p>Towering windmills meant to power America through the future may be key in securing human life on land, but environmentalists warn of the opposite effect on species above and below ground who run the risk of losing their natural habitats from these projects.</p>" +
+"<p> Dos Ranchos del Estado de México, exhiben un montaje detrás del último golpe a la Familia Michoacana, el tercer cartel más poderoso de México. Y una red de narcogobierno que operó impune en los últimos cinco años.</p>" +
 
-"<p>Experts have consistently warned against potential displacement of birds and fishes from areas where offshore wind farms are constructed. They have rung alarm bells in states that host several of them such as Rhode Island and North Carolina, and are doing so now, in hopes of being listened to, in New York.</p>" +
-"<p>New York is playing catch-up with other states in adopting clean energy. Offshore wind farms are a vital component of that, with five currently pursued, and the White House committing to assist in fast tracking them as part of President Joe Biden’s broader clean energy agenda.</p>" +
+"<p>En marzo de 2025 se realizó la operación Bastión, donde se aseguraron propiedades de la Familia en el sur del Estado de México, dominio del grupo delincuencial.</p>" +
+"<p> Sin embargo, dos de estos inmuebles ya habían sido cateados años atrás; pero su captura se presentó como si fuera reciente. Así lo muestran documentos públicos y confidenciales  Autoridades mexiquenses y federales no brindaron explicaciones al respecto. </p>" +
 "<p> [CHART]</p>" +
 "<p>In the U.S., harnessing wind power is practically the only viable way to boost renewable energy output, Harrison Fell, senior researcher at Columbia’s Center on Global Energy Policy, said. For one, wind energy is cheaper than solar, and while prices of the latter have likewise plummeted in recent years, the country simply has no space to put up large swaths of solar energy farms.</p>" +
 "<p>Hydroelectric power plants are also not an option, Fell said. Dams used to house these plants are built on top of rivers and considered more environmentally destructive than erecting windmills. Maintaining them can also prove costly.</p>" +
