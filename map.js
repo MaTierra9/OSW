@@ -266,38 +266,38 @@ map.on("load", function () {
       },
     });
   }
-  map.addLayer({
-    'id': 'MunicipiosEdomex',
-    'type': 'line',
-    'source': {
-        'type': 'kml',
-        'data': 'data\MunicipiosEdomex.kml'
-    },
-    'layout': {
-             'line-join': 'round',
-            'line-cap': 'round',
-         },
-         'paint': {
-             'line-color': ['interpolate', ['linear'], ['get', 'walkability2_lineweight'],
-                 360, '#cd0127',
-                 720, '#7e0728',
-                 1080, '#a83593',
-                 1440, '#7e5ee9',
-                 1800, '#6d61ed',
-             ],
-             'line-width': [
-                 'interpolate',
-                 ['linear'],
-                 ['get', 'walkability2_lineweight'],
-                 360, 10,  // 0 count corresponds to 1 pixel width
-                 720, 8,  // 1 count corresponds to 2 pixels width
-                 1080, 6,  // 3 count corresponds to 4 pixels width
-                 1440, 4,  // 6 count corresponds to 6 pixels width
-                 1800, 2   // 8 count corresponds to 8 pixels width
-             ],
-             'line-opacity': 0
-         }
-     }, firstSymbolId);
+  // map.addLayer({
+  //   'id': 'MunicipiosEdomex',
+  //   'type': 'line',
+  //   'source': {
+  //       'type': 'kml',
+  //       'data': 'data\MunicipiosEdomex.kml'
+  //   },
+  //   'layout': {
+  //            'line-join': 'round',
+  //           'line-cap': 'round',
+  //        },
+  //        'paint': {
+  //            'line-color': ['interpolate', ['linear'], ['get', 'walkability2_lineweight'],
+  //                360, '#cd0127',
+  //                720, '#7e0728',
+  //                1080, '#a83593',
+  //                1440, '#7e5ee9',
+  //                1800, '#6d61ed',
+  //            ],
+  //            'line-width': [
+  //                'interpolate',
+  //                ['linear'],
+  //                ['get', 'walkability2_lineweight'],
+  //                360, 10,  // 0 count corresponds to 1 pixel width
+  //                720, 8,  // 1 count corresponds to 2 pixels width
+  //                1080, 6,  // 3 count corresponds to 4 pixels width
+  //                1440, 4,  // 6 count corresponds to 6 pixels width
+  //                1800, 2   // 8 count corresponds to 8 pixels width
+  //            ],
+  //            'line-opacity': 0
+  //        }
+  //    }, firstSymbolId);
 
 
 

@@ -110,18 +110,18 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "windLeases",
-          opacity: 1,
-          duration: 300,
-        },
+        // {
+        //   layer: "windLeases",
+        //   opacity: 1,
+        //   duration: 300,
+        // },
       ],
       onChapterExit: [
-        {
-          layer: "medianIncome",
-          opacity: 0,
-          duration: 300,
-        },
+        // {
+        //   layer: "medianIncome",
+        //   opacity: 0,
+        //   duration: 300,
+        // },
       ],
     },
     {
@@ -145,11 +145,11 @@ var config = {
     
 
       onChapterExit: [
-        {
-          layer: "windLeases",
-          opacity: 0,
-          duration: 300,
-        },
+        // {
+        //   layer: "windLeases",
+        //   opacity: 0,
+        //   duration: 300,
+        // },
       ],
     },
    
@@ -172,18 +172,18 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "medianIncome",
-          opacity: 1,
-          duration: 300,
-        },
+        // {
+        //   layer: "medianIncome",
+        //   opacity: 1,
+        //   duration: 300,
+        // },
       ],
       onChapterExit: [
-        {
-          layer: "medianIncome",
-          opacity: 0,
-          duration: 300,
-        },
+        // {
+        //   layer: "medianIncome",
+        //   opacity: 0,
+        //   duration: 300,
+        // },
       ],
       
     },
@@ -206,18 +206,18 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "medianIncome",
-          opacity: 1,
-          duration: 300,
-        },
+        // {
+        //   layer: "medianIncome",
+        //   opacity: 1,
+        //   duration: 300,
+        // },
       ],
       onChapterExit: [
-        {
-          layer: "medianIncome",
-          opacity: 0,
-          duration: 300,
-        },
+        // {
+        //   layer: "medianIncome",
+        //   opacity: 0,
+        //   duration: 300,
+        // },
       ],
     },
 
@@ -240,18 +240,18 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "medianIncome",
-          opacity: 0,
-          duration: 300,
-        },
+        // {
+        //   layer: "medianIncome",
+        //   opacity: 0,
+        //   duration: 300,
+        // },
       ],
       onChapterExit: [
-        {
-          layer: "medianIncome",
-          opacity: 0,
-          duration: 300,
-        },
+        // {
+        //   layer: "medianIncome",
+        //   opacity: 0,
+        //   duration: 300,
+        // },
       ],
     },
 
