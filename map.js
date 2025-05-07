@@ -1,8 +1,8 @@
-mapboxgl.accessToken = "pk.eyJ1Ijoic2FyYWhncmV2eSIsImEiOiJjbDFwZHg2YzkwMTVqM2lzeTgxa29waDNnIn0.8fJhOwF_qreAF9cEeVNUMw";
+mapboxgl.accessToken = "pk.eyJ1IjoiYWRub3RpY2lhcyIsImEiOiJjbWFlamJ5enEwODR3MmpwenExN2J5cXNqIn0.K8wE_YrKJOW36r9_x_YG7Q";
 
 var map = new mapboxgl.Map({
   container: "map",
-    style: "mapbox://styles/sarahgrevy/cl6catagd000o14kz9aajefos",
+    style: "mapbox://styles/adnoticias/cmae63g66004101s884694lay",
   zoom: 15,
   center: [-74, 40.725],
   maxZoom: 15,
@@ -267,33 +267,37 @@ map.on("load", function () {
     });
   }
   map.addLayer({
-    'id': 'windLeases',
-    'type': 'fill',
+    'id': 'MunicipiosEdomex',
+    'type': 'line',
     'source': {
-        'type': 'geojson',
-        'data': 'data/windLeases.geojson'
+        'type': 'kml',
+        'data': 'data\MunicipiosEdomex.kml'
     },
-    'paint': {
-      "fill-color": [
-        "match",
-        ["get", "COMPANY"],
-        "Sunrise Wind, LLC", "#6b7081",
-        "Bay State Wind LLC", "#9ca3bd",
-        "Beacon Wind LLC", "#6193c7",
-        "Mayflower Wind Energy, LLC", "#6193c7",
-        "Other", "#91b66e",
-        "Vineyard Northeast LLC", "#6193c7",
-        "Mid-Atlantic Offshore Wind LLC", "#7393B3",
-        "OW Ocean Winds East, LLC", "#5F9EA0",
-        "TotalEnergies Renewables USA, LLC", "#00008B",
-
-       
-        "#d8d4d4",
-      ],
-     
-  }
-
-}, 'road-label-simple');
+    'layout': {
+             'line-join': 'round',
+            'line-cap': 'round',
+         },
+         'paint': {
+             'line-color': ['interpolate', ['linear'], ['get', 'walkability2_lineweight'],
+                 360, '#cd0127',
+                 720, '#7e0728',
+                 1080, '#a83593',
+                 1440, '#7e5ee9',
+                 1800, '#6d61ed',
+             ],
+             'line-width': [
+                 'interpolate',
+                 ['linear'],
+                 ['get', 'walkability2_lineweight'],
+                 360, 10,  // 0 count corresponds to 1 pixel width
+                 720, 8,  // 1 count corresponds to 2 pixels width
+                 1080, 6,  // 3 count corresponds to 4 pixels width
+                 1440, 4,  // 6 count corresponds to 6 pixels width
+                 1800, 2   // 8 count corresponds to 8 pixels width
+             ],
+             'line-opacity': 0
+         }
+     }, firstSymbolId);
 
 
 

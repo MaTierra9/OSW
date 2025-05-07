@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="Layers" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+	<name>Layers</name>
+	<Snippet maxLines="0"></Snippet>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<GroundOverlay>
+		<name>Layers: Composite</name>
+		<Icon>
+			<href>http://servicios2.cenapred.unam.mx:6080/arcgis/services/AtlasEstatales/MapaEdoMex/MapServer/KmlServer?Composite=true&amp;LayerIDs=2&amp;BBOX=-101.5589879045372,17.66053306134953,-96.32327336173792,21.15540421850203;CAMERA=-98.96764410326838,19.42566087228505,415914.56,0,1.199;VIEW=60,43.881,1525,1064,1/Composite.png</href>
+		</Icon>
+		<LatLonBox>
+			<north>20.494719</north>
+			<south>18.140731</south>
+			<east>-98.37805</east>
+			<west>-100.822158</west>
+		</LatLonBox>
+	</GroundOverlay>
+</Document>
+</kml>
