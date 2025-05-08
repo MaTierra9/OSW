@@ -268,22 +268,22 @@ map.on("load", function () {
     });
   };
   
-   map.addLayer(
-    {
-      "id": "MunicipiosEdomex",
-      "type": "line",
-      'source': {
-        'type': 'geojson',
-        'data': 'data\MunicipiosEdomex.geojson'
-      },
-      "paint": {
-        "line-color": "hsl(134, 100%, 52%)",
-        "line-width": 1.5
-      },
-      "source-layer": "igecemdivpolmunene2025cg",
-      "slot": ""
-    }, 
-    firstSymbolId);
+  //  map.addLayer(
+  //   {
+  //     "id": "MunicipiosEdomex",
+  //     "type": "line",
+  //     'source': {
+  //       'type': 'geojson',
+  //       'data': 'data\MunicipiosEdomex.geojson'
+  //     },
+  //     "paint": {
+  //       "line-color": "hsl(134, 100%, 52%)",
+  //       "line-width": 1.5
+  //     },
+  //     "source-layer": "igecemdivpolmunene2025cg",
+  //     "slot": ""
+  //   }, 
+  //   firstSymbolId);
 
 
 

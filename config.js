@@ -1,9 +1,9 @@
-let topTitleDiv = "<h4>Publicado el 7 de mayo de 2025</h4>";
+let topTitleDiv = "";
 
 let titleDiv =
   '<h1 style="text-align:center">Rancho Palma: El montaje detrás de la Operación Bastión</h1>';
 
-let bylineDiv = '<p style="font-size: 15px"> Investigación y visualización: Ivan Ortiz </p>';
+let bylineDiv = '<p style="font-size: 13px"> Investigación y visualización: Ivan Ortiz | Publicado el 7 de mayo de 2025 </p>';
 
 let descriptionDiv =
 "<p> Dos ranchos del Estado de México exhiben un montaje detrás del último golpe a la Familia Michoacana, el tercer cartel más poderoso de México. Y una red de narcogobierno que operó impune durante los últimos cinco años.</p>" +
@@ -56,6 +56,7 @@ var config = {
   showMarkers: true,
   markerColor: "#3FB1CE",
   theme: "adnoticias",
+  backgroundImage: 'images/cover page1.png',
   use3dTerrain: true,
   topTitle: topTitleDiv,
   title: titleDiv,
@@ -83,37 +84,70 @@ var config = {
         {
           layer: 'MunicipiosEdomex',
           opacity: 1
-      },
-      // {
-      //   layer: 'FMMunicipios2020',
-      //   opacity: 0
-      // },
-      // {
-      //   layer: 'FMMunicipios2024',
-      //   opacity: 0
-      // },
-      // {
-      //   layer: 'ranchos-opb',
-      //   opacity: 0
-      // },
-      // {
-      //   layer: 'bases-halconeo-2020',
-      //   opacity: 0
-      // },
-      // {
-      //   layer: 'rancho-las-piuelas-p',
-      //   opacity: 0
-      // },
-      // {
-      //   layer: 'rancho-calpa-p',
-      //    opacity: 0
-      // },
-      // {
-      //    layer: 'ataque-sep-2020',
-      //   opacity:0
-      // }
+        },
+        {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+        },
+        {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+        },
+        {
+          layer: 'ranchos-opb',
+          opacity: 0
+        },
+        {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+        },
+        {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+        },
+        {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+        },
+        {
+           layer: 'ataque-sep-2020',
+          opacity:0
+        }
       ],
-      onChapterExit: [],
+      onChapterExit: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+        },
+        {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+        },
+        {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+        },
+        {
+          layer: 'ranchos-opb',
+          opacity: 0
+        },
+        {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+        },
+        {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+        },
+        {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+        },
+        {
+           layer: 'ataque-sep-2020',
+          opacity:0
+        }
+      ],
     },
     {
       id: "overallMap-2",
@@ -134,37 +168,70 @@ var config = {
         {
           layer: 'MunicipiosEdomex',
           opacity: 1
-      },
-      // {
-      //   layer: 'FMMunicipios2020',
-      //   opacity: 0
-      // },
-      // {
-      //   layer: 'FMMunicipios2024',
-      //   opacity: 0
-      // },
-      // {
-      //   layer: 'ranchos-opb',
-      //   opacity: 0
-      // },
-      // {
-      //   layer: 'bases-halconeo-2020',
-      //   opacity: 0
-      // },
-      // {
-      //   layer: 'rancho-las-piuelas-p',
-      //   opacity: 0
-      // },
-      // {
-      //   layer: 'rancho-calpa-p',
-      //    opacity: 0
-      // },
-      // {
-      //    layer: 'ataque-sep-2020',
-      //   opacity:0
-      // }
+        },
+        {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+        },
+        {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+        },
+        {
+          layer: 'ranchos-opb',
+          opacity: 0
+        },
+        {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+        },
+        {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+        },
+        {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+        },
+        {
+           layer: 'ataque-sep-2020',
+          opacity:0
+        }
       ],
-      onChapterExit: [],
+      onChapterExit: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+        },
+        {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+        },
+        {
+          layer: 'FMMunicipios2024',
+          opacity: 1
+        },
+        {
+          layer: 'ranchos-opb',
+          opacity: 0
+        },
+        {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+        },
+        {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+        },
+        {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+        },
+        {
+           layer: 'ataque-sep-2020',
+          opacity:0
+        }
+      ],
     },
     {
       id: "incomeUnderlay",
