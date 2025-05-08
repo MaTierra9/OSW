@@ -6,7 +6,7 @@ let titleDiv =
 let bylineDiv = '<p style="font-size: 13px"> Investigación y visualización: Ivan Ortiz | Publicado el 7 de mayo de 2025 </p>';
 
 let descriptionDiv =
-"<p> Dos ranchos del Estado de México exhiben un montaje detrás del último golpe a la Familia Michoacana, el tercer cartel más poderoso de México. Y una red de narcogobierno que operó impune durante los últimos cinco años.</p>" +
+'<p style="background-color:#fafafa"> Dos ranchos del Estado de México exhiben un montaje detrás del último golpe a la Familia Michoacana, el tercer cartel más poderoso de México. Y una red de narcogobierno que operó impune durante los últimos cinco años.</p>' +
 "<p> En marzo de 2025 autoridades estatales y federales realizaron la operación Bastión. El operativo consistió en la toma de propiedades de la Familia en el sur del Edomex, región dominada por el grupo delincuencial. Desde puntos de halconeo hasta mansiones de lujo,  </p>" +
 "<p> Aunque la Operación Bastión se planteó como un mensaje de intolerancia frente al crimen organziado, dos de estos inmuebles ya habían sido cateados años atrás; pero su captura se presentó como si fuera reciente. Así lo revelan informes públicos y confidenciales de los #GuacamayaLeaks hallados y analizados por AD Noticias.</p>" +
 "<p> Los documentos, además, exhiben que los ranchos, usados por las hijas de El Pez, eran propiedad de ex presidentes municipales. Los ediles funcionaron como prestanombres de la Familia Michoacana.</p>" +
