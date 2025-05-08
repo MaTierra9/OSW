@@ -1,16 +1,14 @@
 let topTitleDiv = "";
 
 let titleDiv =
-  '<h1 style="text-align:center">Rancho Palma: El montaje detrás de la Operación Bastión</h1>';
+  '<h1 style="text-align:center">Rancho Calpa: El montaje detrás de la Operación Bastión</h1>';
 
 let bylineDiv = '<p style="font-size: 13px"> Investigación y visualización: Ivan Ortiz | Publicado el 7 de mayo de 2025 </p>';
 
 let descriptionDiv =
-'<p style="background-color:#fafafa"> Dos ranchos del Estado de México exhiben un montaje detrás del último golpe a la Familia Michoacana, el tercer cartel más poderoso de México. Y una red de narcogobierno que operó impune durante los últimos cinco años.</p>' +
-"<p> En marzo de 2025 autoridades estatales y federales realizaron la operación Bastión. El operativo consistió en la toma de propiedades de la Familia en el sur del Edomex, región dominada por el grupo delincuencial. Desde puntos de halconeo hasta mansiones de lujo,  </p>" +
-"<p> Aunque la Operación Bastión se planteó como un mensaje de intolerancia frente al crimen organziado, dos de estos inmuebles ya habían sido cateados años atrás; pero su captura se presentó como si fuera reciente. Así lo revelan informes públicos y confidenciales de los #GuacamayaLeaks hallados y analizados por AD Noticias.</p>" +
-"<p> Los documentos, además, exhiben que los ranchos, usados por las hijas de El Pez, eran propiedad de ex presidentes municipales. Los ediles funcionaron como prestanombres de la Familia Michoacana.</p>" +
-"<p> Ni el gobierno estatal ni el federal, incluyendo el Ejército, quisieron dar una postura al respecto, ni explicar porque los ranchos  </p>" +
+'<p style="background-color:#fafafa"> Dos ranchos de lujo en el Estado de México exhiben un montaje detrás del último golpe a la Nueva Familia Michoacana, el tercer cartel más poderoso de México. Y una red de complicidades y narcogobierno que operó impune durante los últimos cinco años.</p>' +
+'<p style="background-color:#fafafa"> En marzo de 2025 autoridades estatales y federales tomaron 21 inmuebles propiedad de la Familia. Desde puntos de halconeo hasta ranchos de lujo en el sur del Edomex. El operativo, llamado Operación Bastión, se presumió como un logro nacional frente al crimen organizado. Sin embargo, al menos dos de estos inmuebles —los Ranchos Calpa y Las Piñuelas— ya habían sido cateados en 2020 y 2022, respectivamente. Pero su captura se presentó como si fuera reciente. Así lo revelan informes públicos y confidenciales de los #GuacamayaLeaks hallados por AD Noticias.</p>' +
+'<p style="background-color:#fafafa"> Los documentos, además, exhiben que algunos inmuebles eran propiedad de exalcaldes mexiquenses, quienes actuaron como prestanombres del cartel. Ni el gobierno estatal ni el federal, incluyendo el Ejército, quisieron dar una postura al respecto. Tampoco explicaron qué sucedió con los ranchos tomados años atrás, poniendo en entredicho la Operación Bastión.</p>' +
 
   '<p style="text-align:center">Haz scroll para continuar <br>▼</p>';
 
@@ -20,29 +18,36 @@ let footerDiv =
 
 let divChapter1 =
   
-  "<p>A finales de marzo de 2025 autoridades estatales y federales realizaron la Operación Bastión, una serie de cateos en 21 inmuebles presuntamente utilizados por la Nueva Familia Michoacana en el Estado de México. Sin embargo, dos de de estos ranchos, Calpa y Las Piñuelas, fueron asegurados en 2020 y 2022. Así lo revelan informes albergados los Guacamaya Leaks localizados por AD Noticias. Ni la Fiscalía ni el Gobierno Mexiquense ni el Ejército </p>";
+  "<p> El sur del Estado de México está bajo el dominio de la Nueva Familia Michoacana, el tercer cartel más poderoso del país. La organización tiene presencia en 74 municipios de la entidad, donde controlan el precio de los productos y cobran derecho de piso. Otros negocios suyos son el narcotráfico, la minería ilegal y la extorsión. </p>";
   ;
-let divChapter2 =
+
+  let divChapter2 =
+  
+  '<h3> 28 de marzo de 2025</h3>' +
+  "<p> Autoridades estatales y federales realizaron la Operación Bastión, una serie de cateos en 21 inmuebles presuntamente utilizados por la Nueva Familia Michoacana. Las propiedades, ubicadas en seis municipios del sur mexiquense, funcionaban   </p>";
+  ;
+
+let divChapter3 =
 "<p>Of the five, South Fork wind farm by the joint venture of Danish firm Ørsted and Eversource Energy already began construction last February.  The farm, to be located 35 miles east of Long Island, is targeted to become operational by late 2023. Four others are at varying stages of development.</p>" +
 '<img src="images/southfarm.png">' 
 
   ;
-let divChapter3 =
+let divChapter4 =
   "<p>The main problem with the projects, according to McWilliams, is that they are not coordinated. Because wind farms are proposed by individual companies and funded commercially, he said there is lack of consultation among stakeholders that could have brought to light the projects’ pros and cons.</p>" 
  ;
 
- let divChapter4 =
+ let divChapter5 =
  "<p>That was not the case in Rhode Island, where America’s first wind farm was constructed by Ørsted in 2016. At the time, McWilliams said the federal government, through the Bureau of Ocean Energy Management, stepped in to limit areas where windmills can be built in order to avoid disrupting wildlife.</p>" +
  "<p>“They immediately took off the table any shipping lanes…, whale migration quarters and waters less than 20 meters in depth because we knew that that’s where most of the waterfowl and waterbirds concentrate,” he explained.</p>";
 
 ;
 
-let divChapter5 =
+let divChapter6 =
 
   "<p>“They immediately took off the table any shipping lanes…, whale migration quarters and waters less than 20 meters in depth because we knew that that’s where most of the waterfowl and waterbirds concentrate,” he explained.</p>";
   ;
 
-  let divChapter6 =
+  let divChapter7 =
 
   "<p>As pushback to wind farms grows, builders erecting these projects have started putting in place contingencies, not only to protect wildlife but also their investment. </p>" +
   "<p> In June, Ørsted announced an agreement with environmental organizations to protect the North Atlantic Right Whale, common near Long Island waters and is facing extinction. The agreement, among others, will see the company enforce measures to help keep whales away from project sites as well as minimize noise during construction to avoid disturbing animals in the area.</p>" +
@@ -213,7 +218,7 @@ var config = {
         },
         {
           layer: 'ranchos-opb',
-          opacity: 0
+          opacity: 1
         },
         {
           layer: 'bases-halconeo-2020',
