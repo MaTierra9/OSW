@@ -125,7 +125,7 @@ var config = {
         },
         {
           layer: 'FMMunicipios2024',
-          opacity: 0
+          opacity: 1
         },
         {
           layer: 'ranchos-opb',
@@ -150,13 +150,13 @@ var config = {
       ],
     },
     {
-      id: "overallMap-2",
+      id: "capitulo-1",
       alignment: "left",
-      hidden: true,
+      hidden: false,
       chapterDiv: divChapter1,
       location: { 
-        center: [-99.74307, 19.46924],
-        zoom: 7.5,
+        center: [-100.851752, 19.175943],
+        zoom: 7.25,
         zoomSmall: 0,
         pitch: 0,
         bearing: 0,
@@ -175,7 +175,7 @@ var config = {
         },
         {
           layer: 'FMMunicipios2024',
-          opacity: 0
+          opacity: 1
         },
         {
           layer: 'ranchos-opb',
@@ -209,7 +209,7 @@ var config = {
         },
         {
           layer: 'FMMunicipios2024',
-          opacity: 1
+          opacity: 0
         },
         {
           layer: 'ranchos-opb',
@@ -234,17 +234,17 @@ var config = {
       ],
     },
     {
-      id: "incomeUnderlay",
-      alignment: "left",
+      id: "capitulo-2",
+      alignment: "right",
       hidden: false,
       title: "",
       image: "",
       description: "",
       chapterDiv: divChapter2,
       location: {
-        center: [-71.045935936999967, 40.719213229000047],
-        zoom: 8.5,
-        zoomSmall: 9,
+        center: [-99.636270, 18.853303],
+        zoom: 8.9,
+        zoomSmall: 0,
         pitch: 0,
         bearing: 0,
       },
@@ -252,22 +252,76 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        // {
-        //   layer: "windLeases",
-        //   opacity: 1,
-        //   duration: 300,
-        // },
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
       ],
       onChapterExit: [
-        // {
-        //   layer: "medianIncome",
-        //   opacity: 0,
-        //   duration: 300,
-        // },
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
       ],
     },
     {
-      id: "elmhurstHospital",
+      id: "capitulo-3",
       alignment: "left",
       hidden: false,
       title: "",
@@ -275,38 +329,9 @@ var config = {
       description: "",
       chapterDiv: divChapter3,
       location: {
-        center: [-71.045935936999967, 40.719213229000047],
-        zoom: 8.5,
-        zoomSmall: 14,
-        pitch: 0,
-        bearing: 0,
-
-        
-      },
-
-    
-
-      onChapterExit: [
-        // {
-        //   layer: "windLeases",
-        //   opacity: 0,
-        //   duration: 300,
-        // },
-      ],
-    },
-   
-    {
-      id: "southBronx",
-      alignment: "right",
-      hidden: false,
-      title: "",
-      image: "",
-      description: "",
-      chapterDiv: divChapter4,
-      location: {
-        center: [-71.542677, 41.142757],
-        zoom: 10,
-        zoomSmall: 14,
+        center: [-100.268679, 18.698405],
+        zoom: 17.35,
+        zoomSmall: 0,
         pitch: 0,
         bearing: 0,
       },
@@ -314,23 +339,165 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        // {
-        //   layer: "medianIncome",
-        //   opacity: 1,
-        //   duration: 300,
-        // },
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 1
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
       ],
       onChapterExit: [
-        // {
-        //   layer: "medianIncome",
-        //   opacity: 0,
-        //   duration: 300,
-        // },
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 1
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
+      ],
+    },
+   
+    {
+      id: "capitulo-4",
+      alignment: "left",
+      hidden: false,
+      title: "",
+      image: "",
+      description: "",
+      chapterDiv: divChapter4,
+      location: {
+        center: [-100.268307, 18.698297],
+        zoom: 17.35,
+        zoomSmall: 0,
+        pitch: 42.50,
+        bearing: 0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: true,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 1
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
+      ],
+      onChapterExit: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 0
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 1
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 1
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
       ],
       
     },
     {
-      id: "southBronx",
+      id: "capitulo-5",
       alignment: "right",
       hidden: false,
       title: "",
@@ -338,9 +505,9 @@ var config = {
       description: "",
       chapterDiv: divChapter5,
       location: {
-        center: [-71.542677, 41.142757],
-        zoom: 10,
-        zoomSmall: 14,
+        center: [-100.200080, 18.642349],
+        zoom: 10.75,
+        zoomSmall: 0,
         pitch: 0,
         bearing: 0,
       },
@@ -348,23 +515,77 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        // {
-        //   layer: "medianIncome",
-        //   opacity: 1,
-        //   duration: 300,
-        // },
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 0
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 1
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 1
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
       ],
       onChapterExit: [
-        // {
-        //   layer: "medianIncome",
-        //   opacity: 0,
-        //   duration: 300,
-        // },
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 0
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 1
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 1
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
       ],
     },
 
     {
-      id: "weekdayTrips",
+      id: "capitulo 6",
       alignment: "full",
       hidden: false,
       title: "",
@@ -372,30 +593,448 @@ var config = {
       description: "",
       chapterDiv: divChapter6,
       location: {
-        center: [-73.886201, 40.744566],
-        zoom: 16,
-        zoomSmall: 14,
-        pitch: 40,
-        bearing: -7,
+        center: [-100.268679, 18.698405],
+        zoom: 17.35,
+        zoomSmall: 0,
+        pitch: 0,
+        bearing: 0,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        // {
-        //   layer: "medianIncome",
-        //   opacity: 0,
-        //   duration: 300,
-        // },
-      ],
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 0
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 1
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 1
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
+          ],
       onChapterExit: [
-        // {
-        //   layer: "medianIncome",
-        //   opacity: 0,
-        //   duration: 300,
-        // },
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 0
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 1
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 1
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity: 1
+     }
       ],
     },
+    {
+      id: 'capitulo-7',
+      alignment: 'left',
+      hidden: false,
+      title: 'Capitulo 7',
+      image: './assets/geneva.jpg',
+      description: 'Geneva, Switzerland, is a picturesque city nestled along the shores of Lake Geneva, surrounded by the Alps and Jura mountains. Known as a global hub for diplomacy and finance, it is home to numerous international organizations, including the United Nations and the Red Cross.',
+      location: {
+          center: [-100.321193, 18.783406],
+          zoom: 10.75,
+          pitch: 0.0,
+          bearing: 0.00
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [
+          {
+              layer: 'MunicipiosEdomex',
+              opacity: 1
+          },
+          {
+              layer: 'FMMunicipios2020',
+              opacity: 0
+          },
+          {
+              layer: 'FMMunicipios2024',
+              opacity: 0
+          },
+          {
+              layer: 'ranchos-opb',
+              opacity: 1
+          },
+          {
+              layer: 'bases-halconeo-2020',
+              opacity: 0
+          },
+          {
+              layer: 'rancho-las-piuelas-p',
+              opacity: 0
+          },
+          {
+              layer: 'rancho-calpa-p',
+              opacity: 1
+          },
+          {
+            layer: 'ataque-sep-2020',
+           opacity: 1
+         }
+      ],
+      onChapterExit: []
+  },
+  {
+    id: 'capitulo-8',
+    alignment: 'left',
+    hidden: false,
+    title: 'Capitulo 8',
+    image: './assets/geneva.jpg',
+    description: 'Geneva, Switzerland, is a picturesque city nestled along the shores of Lake Geneva, surrounded by the Alps and Jura mountains. Known as a global hub for diplomacy and finance, it is home to numerous international organizations, including the United Nations and the Red Cross.',
+    location: {
+        center: [-100.159645, 18.883581],
+        zoom: 13.25,
+        pitch: 0,
+        bearing: 0.00
+    },
+    mapAnimation: 'flyTo',
+    rotateAnimation: false,
+    callback: '',
+    onChapterEnter: [
+        {
+            layer: 'MunicipiosEdomex',
+            opacity: 1
+        },
+        {
+            layer: 'FMMunicipios2020',
+            opacity: 0
+        },
+        {
+            layer: 'FMMunicipios2024',
+            opacity: 0
+        },
+        {
+            layer: 'ranchos-opb',
+            opacity: 0
+        },
+        {
+            layer: 'bases-halconeo-2020',
+            opacity: 1
+        },
+        {
+            layer: 'rancho-las-piuelas-p',
+            opacity: 0
+        },
+        {
+            layer: 'rancho-calpa-p',
+            opacity: 0
+        },
+        {
+          layer: 'ataque-sep-2020',
+         opacity: 1
+       }
+    ],
+    onChapterExit: []
+},
+{
+  id: 'capitulo-9',
+  alignment: 'left',
+  hidden: false,
+  title: 'Capitulo 9',
+  image: './assets/geneva.jpg',
+  description: 'Geneva, Switzerland, is a picturesque city nestled along the shores of Lake Geneva, surrounded by the Alps and Jura mountains. Known as a global hub for diplomacy and finance, it is home to numerous international organizations, including the United Nations and the Red Cross.',
+  location: {
+      center: [-100.142010, 18.880194],
+      zoom: 17.5,
+      pitch: 0,
+      bearing: 0.00
+  },
+  mapAnimation: 'flyTo',
+  rotateAnimation: false,
+  callback: '',
+  onChapterEnter: [
+      {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 0
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 1
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity: 1
+     }
+  ],
+  onChapterExit: []
+},
+{
+  id: 'capitulo-10',
+  alignment: 'left',
+  hidden: false,
+  title: 'Capitulo 10',
+  image: './assets/geneva.jpg',
+  description: 'Geneva, Switzerland, is a picturesque city nestled along the shores of Lake Geneva, surrounded by the Alps and Jura mountains. Known as a global hub for diplomacy and finance, it is home to numerous international organizations, including the United Nations and the Red Cross.',
+  location: {
+      center: [-100.150577, 18.949680],
+      zoom: 11.0,
+      pitch: 0,
+      bearing: 0.00
+  },
+  mapAnimation: 'flyTo',
+  rotateAnimation: false,
+  callback: '',
+  onChapterEnter: [
+      {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 0
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 1
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity: 1
+     }
+  ],
+  onChapterExit: []
+},
+{
+  id: 'capitulo-11',
+  alignment: 'left',
+  hidden: false,
+  title: 'Capitulo 11',
+  image: './assets/geneva.jpg',
+  description: 'Geneva, Switzerland, is a picturesque city nestled along the shores of Lake Geneva, surrounded by the Alps and Jura mountains. Known as a global hub for diplomacy and finance, it is home to numerous international organizations, including the United Nations and the Red Cross.',
+  location: {
+      center: [-100.094293, 18.966978],
+      zoom: 14.6,
+      pitch: 0,
+      bearing: 0.00
+  },
+  mapAnimation: 'flyTo',
+  rotateAnimation: false,
+  callback: '',
+  onChapterEnter: [
+      {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 0
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 1
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity: 1
+     }
+  ],
+  onChapterExit: []
+},
+{
+  id: 'capitulo-12',
+  alignment: 'left',
+  hidden: false,
+  title: 'Capitulo 12',
+  image: './assets/geneva.jpg',
+  description: 'Geneva, Switzerland, is a picturesque city nestled along the shores of Lake Geneva, surrounded by the Alps and Jura mountains. Known as a global hub for diplomacy and finance, it is home to numerous international organizations, including the United Nations and the Red Cross.',
+  location: {
+      center: [-100.050796, 19.015853],
+      zoom: 14.65,
+      pitch: 0,
+      bearing: 0.00
+  },
+  mapAnimation: 'flyTo',
+  rotateAnimation: false,
+  callback: '',
+  onChapterEnter: [
+      {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 0
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 1
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity: 1
+     }
+  ],
+  onChapterExit: []
+},
+{
+  id: 'capitulo-13',
+  alignment: 'left',
+  hidden: false,
+  title: 'Capitulo 13',
+  image: './assets/geneva.jpg',
+  description: 'Geneva, Switzerland, is a picturesque city nestled along the shores of Lake Geneva, surrounded by the Alps and Jura mountains. Known as a global hub for diplomacy and finance, it is home to numerous international organizations, including the United Nations and the Red Cross.',
+  location: {
+      center: [-100.257873, 18.679871],
+      zoom: 10.25,
+      pitch: 0,
+      bearing: 0.00
+  },
+  mapAnimation: 'flyTo',
+  rotateAnimation: false,
+  callback: '',
+  onChapterEnter: [
+      {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity: 1
+     }
+  ],
+  onChapterExit: []
+}
 
   ],
 };

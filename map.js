@@ -324,8 +324,8 @@ map.on("load", function () {
       if (chapter.rotateAnimation) {
         map.once("moveend", function () {
           const rotateNumber = map.getBearing();
-          map.rotateTo(rotateNumber + 90, {
-            duration: 24000,
+          map.rotateTo(rotateNumber + 180, {
+            duration: 30000,
             easing: function (t) {
               return t;
             },
