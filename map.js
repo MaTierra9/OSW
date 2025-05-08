@@ -2,7 +2,7 @@ mapboxgl.accessToken = "pk.eyJ1IjoiYWRub3RpY2lhcyIsImEiOiJjbWFlamJ5enEwODR3Mmpwe
 
 var map = new mapboxgl.Map({
   container: "map",
-    style: "mapbox://styles/adnoticias/cm9rpnk8w00jz01so789a7vkh",
+    style: "mapbox://styles/adnoticias/cmaek5iex00pd01si658zh8or",
   zoom: 15,
   center: [-74, 40.725],
   maxZoom: 15,
@@ -133,6 +133,7 @@ if (config.description) {
   descriptionText.innerHTML = config.description;
   header.appendChild(descriptionText);
 }
+header.style.backgroundImage = 'url(' + config.backgroundImage + ')';
 
 // If after this, the header has anything in it, it gets appended to the story
 if (header.innerText.length > 0) {

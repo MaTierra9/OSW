@@ -1,35 +1,26 @@
 let topTitleDiv = "<h4>Publicado el 7 de mayo de 2025</h4>";
 
 let titleDiv =
-  "<h1>Rancho Palma: El montaje detrás de la Operación Bastión</h1>";
+  '<h1 style="text-align:center">Rancho Palma: El montaje detrás de la Operación Bastión</h1>';
 
-let bylineDiv = "<p>Investigación y visualización: Ivan Ortiz </p>";
+let bylineDiv = '<p style="font-size: 15px"> Investigación y visualización: Ivan Ortiz </p>';
 
 let descriptionDiv =
-"<p> Dos Ranchos del Estado de México, exhiben un montaje detrás del último golpe a la Familia Michoacana, el tercer cartel más poderoso de México. Y una red de narcogobierno que operó impune en los últimos cinco años.</p>" +
+"<p> Dos ranchos del Estado de México exhiben un montaje detrás del último golpe a la Familia Michoacana, el tercer cartel más poderoso de México. Y una red de narcogobierno que operó impune durante los últimos cinco años.</p>" +
+"<p> En marzo de 2025 autoridades estatales y federales realizaron la operación Bastión. El operativo consistió en la toma de propiedades de la Familia en el sur del Edomex, región dominada por el grupo delincuencial. Desde puntos de halconeo hasta mansiones de lujo,  </p>" +
+"<p> Aunque la Operación Bastión se planteó como un mensaje de intolerancia frente al crimen organziado, dos de estos inmuebles ya habían sido cateados años atrás; pero su captura se presentó como si fuera reciente. Así lo revelan informes públicos y confidenciales de los #GuacamayaLeaks hallados y analizados por AD Noticias.</p>" +
+"<p> Los documentos, además, exhiben que los ranchos, usados por las hijas de El Pez, eran propiedad de ex presidentes municipales. Los ediles funcionaron como prestanombres de la Familia Michoacana.</p>" +
+"<p> Ni el gobierno estatal ni el federal, incluyendo el Ejército, quisieron dar una postura al respecto, ni explicar porque los ranchos  </p>" +
 
-"<p>En marzo de 2025 se realizó la operación Bastión, donde se aseguraron propiedades de la Familia en el sur del Estado de México, dominio del grupo delincuencial.</p>" +
-"<p> Sin embargo, dos de estos inmuebles ya habían sido cateados años atrás; pero su captura se presentó como si fuera reciente. Así lo muestran documentos públicos y confidenciales  Autoridades mexiquenses y federales no brindaron explicaciones al respecto. </p>" +
-"<p> [CHART]</p>" +
-"<p>In the U.S., harnessing wind power is practically the only viable way to boost renewable energy output, Harrison Fell, senior researcher at Columbia’s Center on Global Energy Policy, said. For one, wind energy is cheaper than solar, and while prices of the latter have likewise plummeted in recent years, the country simply has no space to put up large swaths of solar energy farms.</p>" +
-"<p>Hydroelectric power plants are also not an option, Fell said. Dams used to house these plants are built on top of rivers and considered more environmentally destructive than erecting windmills. Maintaining them can also prove costly.</p>" +
-"<p>That made wind the go-to-choice for many states going green. In New York, the state government is likewise touting wind farms as an economic bonanza estimated to contribute $12 billion in economic activity and generate over 6,800 jobs just from building them. </p>" +
-
-"<p>But few have been said about potential costs and who are bound to pay for them. Private companies are funneling billions of dollars to the projects, but for Scott McWilliams, professor of wildlife ecology and physiology at University of Rhode Island, the bigger price will be paid for by birds and marine species at risk of losing their habitats in areas to be reclaimed for development.</p>" +
-"<p>Studies show windmills could hurt animals. Birds flying around could get hit by windmill blades and die, while waters surrounding the structures could get contaminated from plant operations that, in turn, poison marine life. Over the long term, these threats, McWilliams said, are likely to trigger displacement for affected species as they try to evade harm.</p>" +
-"<p><q>There is very little direct mortality risk but a large displacement effect,’</q> he said. <q>‘if you put [the wind farms] in a really important bird or whale place where they’re likely to be, then you’ll likely have a negative impact on that particular kind of wildlife.’</q></p>" +
-"<p>New York currently has <a href='https://www.nyserda.ny.gov/All-Programs/Offshore-Wind/Focus-Areas/NY-Offshore-Wind-Projects'>five</a> offshore wind farms in the pipeline, which collectively are capable of generating 9,000 MW of electricity.</p>" +
-
-
-  '<p style="text-align:center">Scroll to continue<br>▼</p>';
+  '<p style="text-align:center">Haz scroll para continuar <br>▼</p>';
 
 let footerDiv =
-  '<p>This story is based on data by the <a href="https://www.nyserda.ny.gov/All-Programs/Offshore-Wind/Focus-Areas/NY-Offshore-Wind-Projects">New York States</a> Offshore Wind Program <a href="https://www.nytimes.com/2020/04/09/nyregion/coronavirus-queens-corona-jackson-heights-elmhurst.html"></p>' +
+  '<br> Esta visualización fue creada usando <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a>' +
   '<p><a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> | <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a> | <a href="https://brown.columbia.edu">The Brown Institute for Media Innovation</a></p>';
 
 let divChapter1 =
   
-  "<p>Wind power from these projects are equivalent to over half of what New York needs to reach the goal of sourcing 70% of generated electricity from renewables by 2030. </p>";
+  "<p>A finales de marzo de 2025 autoridades estatales y federales realizaron la Operación Bastión, una serie de cateos en 21 inmuebles presuntamente utilizados por la Nueva Familia Michoacana en el Estado de México. Sin embargo, dos de de estos ranchos, Calpa y Las Piñuelas, fueron asegurados en 2020 y 2022. Así lo revelan informes albergados los Guacamaya Leaks localizados por AD Noticias. Ni la Fiscalía ni el Gobierno Mexiquense ni el Ejército </p>";
   ;
 let divChapter2 =
 "<p>Of the five, South Fork wind farm by the joint venture of Danish firm Ørsted and Eversource Energy already began construction last February.  The farm, to be located 35 miles east of Long Island, is targeted to become operational by late 2023. Four others are at varying stages of development.</p>" +
@@ -62,10 +53,10 @@ let divChapter5 =
 var config = {
   style: "mapbox://styles/adnoticias/cmaek5iex00pd01si658zh8or",
   accessToken: "pk.eyJ1IjoiYWRub3RpY2lhcyIsImEiOiJjbWFlamJ5enEwODR3MmpwenExN2J5cXNqIn0.K8wE_YrKJOW36r9_x_YG7Q",
-  showMarkers: false,
+  showMarkers: true,
   markerColor: "#3FB1CE",
-  theme: "light",
-  use3dTerrain: false,
+  theme: "adnoticias",
+  use3dTerrain: true,
   topTitle: topTitleDiv,
   title: titleDiv,
   subtitle: "",
@@ -76,11 +67,11 @@ var config = {
     {
       id: "overallMap",
       alignment: "left",
-      hidden: false,
+      hidden: true,
       chapterDiv: divChapter1,
       location: { 
-        center: [-73.869, 41.049],
-        zoom: 7,
+        center: [-99.68780, 19.33646],
+        zoom: 4.8,
         zoomSmall: 9,
         pitch: 0,
         bearing: 0,
