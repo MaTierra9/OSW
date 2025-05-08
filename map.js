@@ -1,8 +1,8 @@
-mapboxgl.accessToken = "pk.eyJ1IjoiYWRub3RpY2lhcyIsImEiOiJjbWFlamJ5enEwODR3MmpwenExN2J5cXNqIn0.K8wE_YrKJOW36r9_x_YG7Q";
+mapboxgl.accessToken = "pk.eyJ1IjoiYWRub3RpY2lhcyIsImEiOiJjbTluM3dvMnUwY3pvMmpweXY5Nzlwb25sIn0.KmpjzY2cdB187bB1xNBsnA";
 
 var map = new mapboxgl.Map({
   container: "map",
-    style: "mapbox://styles/adnoticias/cmaek5iex00pd01si658zh8or",
+    style: "mapbox://styles/adnoticias/cm9rpnk8w00jz01so789a7vkh",
   zoom: 15,
   center: [-74, 40.725],
   maxZoom: 15,
@@ -266,42 +266,28 @@ map.on("load", function () {
         "sky-atmosphere-sun-intensity": 15,
       },
     });
-  }
-  // map.addLayer({
-  //   'id': 'MunicipiosEdomex',
-  //   'type': 'line',
-  //   'source': {
-  //       'type': 'kml',
-  //       'data': 'data\MunicipiosEdomex.kml'
-  //   },
-  //   'layout': {
-  //            'line-join': 'round',
-  //           'line-cap': 'round',
-  //        },
-  //        'paint': {
-  //            'line-color': ['interpolate', ['linear'], ['get', 'walkability2_lineweight'],
-  //                360, '#cd0127',
-  //                720, '#7e0728',
-  //                1080, '#a83593',
-  //                1440, '#7e5ee9',
-  //                1800, '#6d61ed',
-  //            ],
-  //            'line-width': [
-  //                'interpolate',
-  //                ['linear'],
-  //                ['get', 'walkability2_lineweight'],
-  //                360, 10,  // 0 count corresponds to 1 pixel width
-  //                720, 8,  // 1 count corresponds to 2 pixels width
-  //                1080, 6,  // 3 count corresponds to 4 pixels width
-  //                1440, 4,  // 6 count corresponds to 6 pixels width
-  //                1800, 2   // 8 count corresponds to 8 pixels width
-  //            ],
-  //            'line-opacity': 0
-  //        }
-  //    }, firstSymbolId);
+  };
+  
+   map.addLayer(
+    {
+      "id": "MunicipiosEdomex",
+      "type": "line",
+      'source': {
+        'type': 'geojson',
+        'data': 'data\MunicipiosEdomex.geojson'
+      },
+      "paint": {
+        "line-color": "hsl(134, 100%, 52%)",
+        "line-width": 1.5
+      },
+      "source-layer": "igecemdivpolmunene2025cg",
+      "slot": ""
+    }, 
+    firstSymbolId);
 
 
 
+      
   scroller
     .setup({
       step: ".step",

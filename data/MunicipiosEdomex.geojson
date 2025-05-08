@@ -1,0 +1,11 @@
+{
+    "id": "MunicipiosEdomex",
+    "type": "line",
+    "paint": {
+        "line-color": "hsl(134, 100%, 52%)",
+        "line-width": 1.5
+    },
+    "source": "composite",
+    "source-layer": "igecemdivpolmunene2025cg",
+    "slot": ""
+}

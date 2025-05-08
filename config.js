@@ -51,8 +51,8 @@ let divChapter5 =
   "<p> McWilliams agreed. “I’m saying the effect would still be positive, but just be careful where you put it,” he said.</p>" 
   ;
 var config = {
-  style: "mapbox://styles/adnoticias/cmaek5iex00pd01si658zh8or",
-  accessToken: "pk.eyJ1IjoiYWRub3RpY2lhcyIsImEiOiJjbWFlamJ5enEwODR3MmpwenExN2J5cXNqIn0.K8wE_YrKJOW36r9_x_YG7Q",
+  style: "mapbox://styles/adnoticias/cm9rpnk8w00jz01so789a7vkh",
+  accessToken: "pk.eyJ1IjoiYWRub3RpY2lhcyIsImEiOiJjbTluM3dvMnUwY3pvMmpweXY5Nzlwb25sIn0.KmpjzY2cdB187bB1xNBsnA",
   showMarkers: true,
   markerColor: "#3FB1CE",
   theme: "adnoticias",
@@ -72,14 +72,98 @@ var config = {
       location: { 
         center: [-99.68780, 19.33646],
         zoom: 4.8,
-        zoomSmall: 9,
+        zoomSmall: 0,
+        pitch: 31.50,
+        bearing: 0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      // {
+      //   layer: 'FMMunicipios2020',
+      //   opacity: 0
+      // },
+      // {
+      //   layer: 'FMMunicipios2024',
+      //   opacity: 0
+      // },
+      // {
+      //   layer: 'ranchos-opb',
+      //   opacity: 0
+      // },
+      // {
+      //   layer: 'bases-halconeo-2020',
+      //   opacity: 0
+      // },
+      // {
+      //   layer: 'rancho-las-piuelas-p',
+      //   opacity: 0
+      // },
+      // {
+      //   layer: 'rancho-calpa-p',
+      //    opacity: 0
+      // },
+      // {
+      //    layer: 'ataque-sep-2020',
+      //   opacity:0
+      // }
+      ],
+      onChapterExit: [],
+    },
+    {
+      id: "overallMap-2",
+      alignment: "left",
+      hidden: true,
+      chapterDiv: divChapter1,
+      location: { 
+        center: [-99.74307, 19.46924],
+        zoom: 7.5,
+        zoomSmall: 0,
         pitch: 0,
         bearing: 0,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      // {
+      //   layer: 'FMMunicipios2020',
+      //   opacity: 0
+      // },
+      // {
+      //   layer: 'FMMunicipios2024',
+      //   opacity: 0
+      // },
+      // {
+      //   layer: 'ranchos-opb',
+      //   opacity: 0
+      // },
+      // {
+      //   layer: 'bases-halconeo-2020',
+      //   opacity: 0
+      // },
+      // {
+      //   layer: 'rancho-las-piuelas-p',
+      //   opacity: 0
+      // },
+      // {
+      //   layer: 'rancho-calpa-p',
+      //    opacity: 0
+      // },
+      // {
+      //    layer: 'ataque-sep-2020',
+      //   opacity:0
+      // }
+      ],
       onChapterExit: [],
     },
     {
