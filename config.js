@@ -6,9 +6,9 @@ let titleDiv =
 let bylineDiv = '<p style="font-size: 13px"> Investigación y visualización: Ivan Ortiz | Publicado el 7 de mayo de 2025 </p>';
 
 let descriptionDiv =
-'<p style="background-color:#fafafa"> Dos ranchos de lujo en el Estado de México exhiben un montaje detrás del último golpe a la Nueva Familia Michoacana, el tercer cartel más poderoso de México. Y una red de complicidades y narcogobierno que operó impune durante los últimos cinco años.</p>' +
-'<p style="background-color:#fafafa"> En marzo de 2025 autoridades estatales y federales tomaron 21 inmuebles propiedad de la Familia. Desde puntos de halconeo hasta ranchos de lujo en el sur del Edomex. El operativo, llamado Operación Bastión, se presumió como un logro nacional frente al crimen organizado. Sin embargo, al menos dos de estos inmuebles —los Ranchos Calpa y Las Piñuelas— ya habían sido cateados en 2020 y 2022, respectivamente. Pero su captura se presentó como si fuera reciente. Así lo revelan informes públicos y confidenciales de los #GuacamayaLeaks hallados por AD Noticias.</p>' +
-'<p style="background-color:#fafafa"> Los documentos, además, exhiben que algunos inmuebles eran propiedad de exalcaldes mexiquenses, quienes actuaron como prestanombres del cartel. Ni el gobierno estatal ni el federal, incluyendo el Ejército, quisieron dar una postura al respecto. Tampoco explicaron qué sucedió con los ranchos tomados años atrás, poniendo en entredicho la Operación Bastión.</p>' +
+'<p style="background-color:#fafafa">Dos ranchos de lujo en el Estado de México exhiben un montaje detrás del último golpe a la Nueva Familia Michoacana, el tercer cartel más poderoso de México, y una red de complicidades y narcogobierno que operó impune durante los últimos cinco años.</p>' +
+'<p style="background-color:#fafafa"> En marzo de 2025 autoridades estatales y federales capturaron 21 inmuebles usados por la Familia en el sur del Edomex, desde puntos de halconeo hasta mansiones de lujo. El operativo, llamado Operación Bastión, se presumió como un logro nacional frente al crimen organizado. Sin embargo, al menos dos de estas propiedades —los Ranchos Calpa y Las Piñuelas— ya habían sido cateados en 2020 y 2022, respectivamente. Pero su captura se presentó como si fuera reciente. Así lo revelan informes públicos y confidenciales de los #GuacamayaLeaks hallados por AD Noticias.</p>' +
+'<p style="background-color:#fafafa">Los documentos, además, exhiben que algunos inmuebles eran propiedad de ex alcaldes mexiquenses, quienes actuaron como prestanombres del cartel. Ni el gobierno estatal ni el federal quisieron dar una postura al respecto ni una explicación sobre los ranchos asegurados años atrás, poniendo en entredicho la Operación Bastión.</p>' +
 
   '<p style="text-align:center">Haz scroll para continuar <br>▼</p>';
 
@@ -17,18 +17,22 @@ let footerDiv =
   '<p><a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> | <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a> | <a href="https://brown.columbia.edu">The Brown Institute for Media Innovation</a></p>';
 
 let divChapter1 =
-  
-  "<p> El sur del Estado de México está bajo el dominio de la Nueva Familia Michoacana, el tercer cartel más poderoso del país. La organización tiene presencia en 74 municipios de la entidad, donde controlan el precio de los productos y cobran derecho de piso. Otros negocios suyos son el narcotráfico, la minería ilegal y la extorsión. </p>";
+  '<img src="images/FM-Portada.jpg">' +
+  "<p> El Estado de México está bajo el dominio de la Nueva Familia Michoacana. La organización criminal opera en 74 municipios a lo largo de la entidad, seis de cada 10. </p>"+
+  "<p> En la llamada Tierra Caliente, en el sur del Edomex, la Familia controla delitos como el narcotráfico, trata de personas, minería ilegal y, sobre todo, la extorsión: la imposición de impuestos informales a pobladores y comerciantes mediante el cobro de piso. </p>";
   ;
 
   let divChapter2 =
-  
   '<h3> 28 de marzo de 2025</h3>' +
-  "<p> Autoridades estatales y federales realizaron la Operación Bastión, una serie de cateos en 21 inmuebles presuntamente utilizados por la Nueva Familia Michoacana. Las propiedades, ubicadas en seis municipios del sur mexiquense, funcionaban   </p>";
+  "<p>La Fiscalía General de Justicia del Estado de México (FGJEM) obtuvo órdenes de cateo para tomar 21 inmuebles usados por la Nueva Familia Michoacana en seis municipios de Tierra Caliente: Amatepec, Luvianos, Sultepec, Tejupilco, Temascaltepec y Tlatlaya.</p>" +
+  "<p>Participaron también elementos del Ejército Nacional, la Secretaría de la Marina, la Guardia Nacional y la Secretaría de Seguridad del Estado de México.  El operativo, llamado Operación Bastión, se dio un par de meses después de que Estados Unidos declarará al cartel como una organización terrorista.</p>"+
+  '<img src="images/OperacionBastionP1.png">';
   ;
 
 let divChapter3 =
-"<p>Of the five, South Fork wind farm by the joint venture of Danish firm Ørsted and Eversource Energy already began construction last February.  The farm, to be located 35 miles east of Long Island, is targeted to become operational by late 2023. Four others are at varying stages of development.</p>" +
+'<h3 style="text-align:center"> Los lujos de la Familia Michoacana</h3>'+
+'<p style="text-align:center">Varios de los inmuebles servían como casas de seguridad, puntos de halconeo o de venta de droga. Pero otros eran ranchos para el descanso de los líderes de la organización, cuyos lujos se volvieron noticia nacional: Acabados en oro o maderas preciosas, piscinas, canchas de tenis o salas de cine.</p>' +
+'<p style="text-align:center"> Algunos ranchos contaban con lagos artificiales que hacían de los inmuebles auténticos oasis en medio de las áridas barrancas mexiquenses. Unos más tenían un zoológico privado con animales exóticos vivos y disecados.</p>' +
 '<img src="images/southfarm.png">' 
 
   ;
@@ -161,7 +165,7 @@ var config = {
       chapterDiv: divChapter1,
       location: { 
         center: [-100.851752, 19.175943],
-        zoom: 7.25,
+        zoom: 7.5,
         zoomSmall: 0,
         pitch: 0,
         bearing: 0,
@@ -247,7 +251,7 @@ var config = {
       description: "",
       chapterDiv: divChapter2,
       location: {
-        center: [-99.636270, 18.853303],
+        center: [-99.636270, 18.823303],
         zoom: 8.9,
         zoomSmall: 0,
         pitch: 0,
@@ -327,6 +331,93 @@ var config = {
     },
     {
       id: "capitulo-3",
+      alignment: "full",
+      hidden: false,
+      title: "",
+      image: "",
+      description: "",
+      chapterDiv: divChapter3,
+      location: {
+        center: [-100.196483, 18.705694],
+        zoom: 10.05,
+        zoomSmall: 0,
+        pitch: 40.0,
+        bearing: 0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
+      ],
+      onChapterExit: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
+      ],
+    },
+    {
+      id: "capitulo-3.5",
       alignment: "left",
       hidden: false,
       title: "",
