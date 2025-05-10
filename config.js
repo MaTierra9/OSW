@@ -31,11 +31,10 @@ let divChapter1 =
 
 let divChapter3 =
 '<h3 style="text-align:center"> Los lujos de la Familia Michoacana</h3>'+
-'<p style="text-align:center">Varios de los inmuebles servían como casas de seguridad, puntos de halconeo o de venta de droga. Pero otros eran ranchos para el descanso de los líderes de la organización, cuyos lujos se volvieron noticia nacional: Acabados en oro o maderas preciosas, piscinas, canchas de tenis o salas de cine.</p>' +
-'<p style="text-align:center"> Algunos ranchos contaban con lagos artificiales que hacían de los inmuebles auténticos oasis en medio de las áridas barrancas mexiquenses. Unos más tenían un zoológico privado con animales exóticos vivos y disecados.</p>' +
-'<img src="images/southfarm.png">' 
-
-  ;
+'<p>Varios de los inmuebles servían como casas de seguridad, puntos de halconeo o de venta de droga. Pero otros eran ranchos para el descanso de los líderes de la organización, cuyos lujos se volvieron noticia nacional: Acabados en oro o maderas preciosas, piscinas, canchas de tenis o salas de cine.</p>' +
+'<p> Algunos ranchos contaban con lagos artificiales que hacían de los inmuebles auténticos oasis en medio de las áridas barrancas mexiquenses. Unos más tenían un zoológico privado con animales exóticos vivos y disecados.</p>' +
+'<img src="images/southfarm.png">'+
+'<section id="gallery"><div class="gallery-container"><figure class="gallery-item"><img src="images/Chapter_2_Image.jpg" alt="Imagen 1"><figcaption>Descripción de la imagen 1</figcaption></figure><figure class="gallery-item"><img src="images/Chapter_3_Image.jpg" alt="Imagen 2"><figcaption>Descripción de la imagen 2</figcaption></figure><figure class="gallery-item"><img src="images/Chapter_2_Image.jpg" alt="Imagen 3"><figcaption>Descripción de la imagen 3</figcaption></figure></div><nav class="gallery-navigation"><button class="nav-button prev-button">Anterior</button><button class="nav-button next-button">Siguiente</button></nav></section>';
 let divChapter4 =
   "<p>The main problem with the projects, according to McWilliams, is that they are not coordinated. Because wind farms are proposed by individual companies and funded commercially, he said there is lack of consultation among stakeholders that could have brought to light the projects’ pros and cons.</p>" 
  ;

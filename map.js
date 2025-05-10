@@ -344,6 +344,28 @@ map.on("load", function () {
     });
 });
 
+// Carrusel
+
+let currentIndex = 0;
+
+document.querySelector('.prev-button').addEventListener('click', () => {
+   navigate(-1);
+});
+
+document.querySelector('.next-button').addEventListener('click', () => {
+   navigate(1);
+});
+
+function navigate(direction) {
+   const galleryContainer = document.querySelector('.gallery-container');
+   const totalImages = document.querySelectorAll('.gallery-item').length;
+
+   currentIndex = (currentIndex + direction + totalImages) % totalImages;
+   const offset = -currentIndex * 100;
+
+   galleryContainer.style.transform = `translateX(${offset}%)`;
+}
+
 /* Here we watch for any resizing of the screen to
 adjust our scrolling setup */
 window.addEventListener("resize", scroller.resize);
