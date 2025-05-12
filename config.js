@@ -32,30 +32,43 @@ let divChapter1 =
 let divChapter3 =
 '<h3 style="text-align:center"> Los lujos de la Familia Michoacana</h3>'+
 '<p>Varios de los inmuebles servían como casas de seguridad, puntos de halconeo o de venta de droga. Pero otros eran ranchos para el descanso de los líderes de la organización, cuyos lujos se volvieron noticia nacional: Acabados en oro o maderas preciosas, piscinas, canchas de tenis o salas de cine.</p>' +
-'<p> Algunos ranchos contaban con lagos artificiales que hacían de los inmuebles auténticos oasis en medio de las áridas barrancas mexiquenses. Unos más tenían un zoológico privado con animales exóticos vivos y disecados.</p>' +
+'<p>Algunos ranchos contaban con lagos artificiales que hacían de los inmuebles auténticos oasis en medio de las áridas barrancas mexiquenses. Unos más tenían animales exóticos.</p>' +
 '<img src="images/southfarm.png">'+
 '<section id="gallery"><div class="gallery-container"><figure class="gallery-item"><img src="images/Chapter_2_Image.jpg" alt="Imagen 1"><figcaption>Descripción de la imagen 1</figcaption></figure><figure class="gallery-item"><img src="images/Chapter_3_Image.jpg" alt="Imagen 2"><figcaption>Descripción de la imagen 2</figcaption></figure><figure class="gallery-item"><img src="images/Chapter_2_Image.jpg" alt="Imagen 3"><figcaption>Descripción de la imagen 3</figcaption></figure></div><nav class="gallery-navigation"><button class="nav-button prev-button">Anterior</button><button class="nav-button next-button">Siguiente</button></nav></section>';
-let divChapter4 =
-  "<p>The main problem with the projects, according to McWilliams, is that they are not coordinated. Because wind farms are proposed by individual companies and funded commercially, he said there is lack of consultation among stakeholders that could have brought to light the projects’ pros and cons.</p>" 
- ;
-
- let divChapter5 =
- "<p>That was not the case in Rhode Island, where America’s first wind farm was constructed by Ørsted in 2016. At the time, McWilliams said the federal government, through the Bureau of Ocean Energy Management, stepped in to limit areas where windmills can be built in order to avoid disrupting wildlife.</p>" +
- "<p>“They immediately took off the table any shipping lanes…, whale migration quarters and waters less than 20 meters in depth because we knew that that’s where most of the waterfowl and waterbirds concentrate,” he explained.</p>";
-
 ;
 
-let divChapter6 =
+let divChapter4 =
+'<h3 style="text-align:center"> Rancho Las Piñuelas</h3>'+
+'<p>Otro rancho lleno de lujos es el Rancho Calpa, ubicado en el sur del municipio de Amatepec, a la altura de la localidad Charco Hondo.</p>' +
+'<p>De acuerdo con autoridades estatales y federales, el rancho era usado por las hijas del propio líder de la Nueva Familia Michoacana, José Alfredo Hurtado Olascoaga, quien ha tenido varios alias: “Señor Pez”, “El Fish”, “El Mojarro”, pero el más conocido es “El Pez”.</p>';
+// Aquí hay que poner una foto de la entrada del rancho
+;
 
-  "<p>“They immediately took off the table any shipping lanes…, whale migration quarters and waters less than 20 meters in depth because we knew that that’s where most of the waterfowl and waterbirds concentrate,” he explained.</p>";
-  ;
+let divChapter5 =
+'<h3 style="text-align:center"> Rancho Calpa</h3>'+
+'<p>Otro rancho lleno de lujos es el Rancho Calpa, ubicado en el sur del municipio de Amatepec, a la altura de la localidad Charco Hondo.</p>' +
+'<p>De acuerdo con autoridades estatales y federales, el rancho era usado por las hijas del propio líder de la Nueva Familia Michoacana, José Alfredo Hurtado Olascoaga, quien ha tenido varios alias: “Señor Pez”, “El Fish”, “El Mojarro”, pero el más conocido es “El Pez”.</p>';
+// Aquí hay que poner una foto de la entrada del rancho
+;
 
-  let divChapter7 =
 
+ let divChapter6 =
+ '<p>El rancho Calpa se componía de una casa al centro de un pequeño lago artificial, que convertía al lugar en un auténtico oasis escondido entre las áridas barrancas mexiquenses.</p>' +
+ '<p> La propiedad contaba además con alberca al centro de la casa, un cine, una cancha de fútbol y vehículos tipo safari sin placas. Pero lo que más llamaba la atención del predio eran sus animales.</p>'+
+'<p>Un zoológico personal albergaba el Rancho Calpa, habitado por venados, cebras, pavoreales, caballos y reses. El interior estaba adornado por una colección de osos, tigres y una boa, todos disecados.</p>';
+// Aquí hay que poner carrusel o video del rancho. Sólo con lo que dice la operación bastión. 
+;
+
+let divChapter7 =
+'<p style="text-align:center">La Operación Bastión se presumió como un logro nacional frente al crimen organizado, enmarcado en la reciente designación de la Nueva Familia Michoacana como una organización terrorista por parte del gobierno estadounidense.</p>'+
+'<p style="text-align:center">Sin embargo, el Rancho Calpa ya había sido cateado por las autoridades cinco años atrás, en marzo de 2020. Pero su captura se presentó como si fuera reciente. Así lo revelan reportes confidenciales hallados por AD Noticias en la filtración de los #GuacamayaLeaks, la mayor filtración de información de las fuerzas armadas durante el sexenio de Andres Manuel López Obrador.</p>';
+;
+
+  let divChapter8 =
   "<p>As pushback to wind farms grows, builders erecting these projects have started putting in place contingencies, not only to protect wildlife but also their investment. </p>" +
   "<p> In June, Ørsted announced an agreement with environmental organizations to protect the North Atlantic Right Whale, common near Long Island waters and is facing extinction. The agreement, among others, will see the company enforce measures to help keep whales away from project sites as well as minimize noise during construction to avoid disturbing animals in the area.</p>" +
   "<p> Such efforts will not completely eliminate wildlife risks posed by the projects, but can help mitigate them. In the end, Columbia’s Fell said offshore wind farms are still “net positive” for New York, which presently relies heavily on natural gas for its power. </p>" +
-  // '<img src="images/southfarm.png">' +
+  '<img src="images/southfarm.png">' +
   "<p> McWilliams agreed. “I’m saying the effect would still be positive, but just be careful where you put it,” he said.</p>" 
   ;
 var config = {
@@ -416,13 +429,100 @@ var config = {
       ],
     },
     {
-      id: "capitulo-3.5",
+      id: "capitulo-4",
+      alignment: "right",
+      hidden: false,
+      title: "",
+      image: "",
+      description: "",
+      chapterDiv: divChapter4,
+      location: {
+        center: [-100.324192, 18.742293],
+        zoom: 16.75,
+        zoomSmall: 0,
+        pitch: 0,
+        bearing: 0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 1
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 0
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity: 0
+     }
+      ],
+      onChapterExit: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 1
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
+      ],
+    },
+    {
+      id: "capitulo-5",
       alignment: "left",
       hidden: false,
       title: "",
       image: "",
       description: "",
-      chapterDiv: divChapter3,
+      chapterDiv: divChapter5,
       location: {
         center: [-100.268679, 18.698405],
         zoom: 17.35,
@@ -502,15 +602,14 @@ var config = {
      }
       ],
     },
-   
     {
-      id: "capitulo-4",
+      id: "capitulo-6",
       alignment: "left",
       hidden: false,
       title: "",
       image: "",
       description: "",
-      chapterDiv: divChapter4,
+      chapterDiv: divChapter6,
       location: {
         center: [-100.268307, 18.698297],
         zoom: 17.35,
@@ -592,13 +691,187 @@ var config = {
       
     },
     {
-      id: "capitulo-5",
+      id: "capitulo-7",
+      alignment: "center",
+      hidden: false,
+      title: "",
+      image: "",
+      description: "",
+      chapterDiv: divChapter7,
+      location: {
+        center: [-100.267475, 18.698400],
+        zoom: 16.75,
+        zoomSmall: 0,
+        pitch: 0,
+        bearing: 0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 1
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
+      ],
+      onChapterExit: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 1
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
+      ],
+    },
+    {
+      id: "capitulo-8",
+      alignment: "full",
+      hidden: false,
+      title: "",
+      image: "",
+      description: "",
+      chapterDiv: divChapter7,
+      location: {
+        center: [-100.267475, 18.698400],
+        zoom: 16.75,
+        zoomSmall: 0,
+        pitch: 0,
+        bearing: 0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 1
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
+      ],
+      onChapterExit: [
+        {
+          layer: 'MunicipiosEdomex',
+          opacity: 1
+      },
+      {
+          layer: 'FMMunicipios2020',
+          opacity: 0
+      },
+      {
+          layer: 'FMMunicipios2024',
+          opacity: 0
+      },
+      {
+          layer: 'ranchos-opb',
+          opacity: 1
+      },
+      {
+          layer: 'bases-halconeo-2020',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-las-piuelas-p',
+          opacity: 0
+      },
+      {
+          layer: 'rancho-calpa-p',
+          opacity: 1
+      },
+      {
+        layer: 'ataque-sep-2020',
+       opacity:0
+     }
+      ],
+    },
+    {
+      id: "capitulo-9",
       alignment: "right",
       hidden: false,
       title: "",
       image: "",
       description: "",
-      chapterDiv: divChapter5,
+      chapterDiv: divChapter6,
       location: {
         center: [-100.200080, 18.642349],
         zoom: 10.75,
@@ -680,7 +953,7 @@ var config = {
     },
 
     {
-      id: "capitulo 6",
+      id: "capitulo 10",
       alignment: "full",
       hidden: false,
       title: "",
@@ -767,7 +1040,7 @@ var config = {
       ],
     },
     {
-      id: 'capitulo-7',
+      id: 'capitulo-11',
       alignment: 'left',
       hidden: false,
       title: 'Capitulo 7',
@@ -819,7 +1092,7 @@ var config = {
       onChapterExit: []
   },
   {
-    id: 'capitulo-8',
+    id: 'capitulo-12',
     alignment: 'left',
     hidden: false,
     title: 'Capitulo 8',
@@ -871,7 +1144,7 @@ var config = {
     onChapterExit: []
 },
 {
-  id: 'capitulo-9',
+  id: 'capitulo-13',
   alignment: 'left',
   hidden: false,
   title: 'Capitulo 9',
@@ -923,7 +1196,7 @@ var config = {
   onChapterExit: []
 },
 {
-  id: 'capitulo-10',
+  id: 'capitulo-14',
   alignment: 'left',
   hidden: false,
   title: 'Capitulo 10',
@@ -975,10 +1248,10 @@ var config = {
   onChapterExit: []
 },
 {
-  id: 'capitulo-11',
+  id: 'capitulo-15',
   alignment: 'left',
   hidden: false,
-  title: 'Capitulo 11',
+  title: 'Capitulo 12',
   image: './assets/geneva.jpg',
   description: 'Geneva, Switzerland, is a picturesque city nestled along the shores of Lake Geneva, surrounded by the Alps and Jura mountains. Known as a global hub for diplomacy and finance, it is home to numerous international organizations, including the United Nations and the Red Cross.',
   location: {
@@ -1027,7 +1300,7 @@ var config = {
   onChapterExit: []
 },
 {
-  id: 'capitulo-12',
+  id: 'capitulo-16',
   alignment: 'left',
   hidden: false,
   title: 'Capitulo 12',
@@ -1079,7 +1352,7 @@ var config = {
   onChapterExit: []
 },
 {
-  id: 'capitulo-13',
+  id: 'capitulo-17',
   alignment: 'left',
   hidden: false,
   title: 'Capitulo 13',
