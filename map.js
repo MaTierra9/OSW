@@ -1,8 +1,8 @@
-mapboxgl.accessToken = "pk.eyJ1IjoiYWRub3RpY2lhcyIsImEiOiJjbTluM3dvMnUwY3pvMmpweXY5Nzlwb25sIn0.KmpjzY2cdB187bB1xNBsnA";
+mapboxgl.accessToken = "pk.eyJ1IjoiaXZhbi1vcnRpejkiLCJhIjoiY21lczJ6dWt6MGUzcjJub3J1YWJoaWR0eCJ9.CjvjJDDvF4FtGFYpnwa0EA";
 
 var map = new mapboxgl.Map({
   container: "map",
-    style: "mapbox://styles/adnoticias/cm9rpnk8w00jz01so789a7vkh",
+    style: "mapbox://styles/ivan-ortiz9/cmder3ogc006001s1al52eir3",
   zoom: 15,
   center: [-74, 40.725],
   maxZoom: 15,
