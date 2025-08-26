@@ -1,7 +1,7 @@
 let topTitleDiv = "";
 
 let titleDiv =
-  '<h1 style="text-align:center">Rancho Calpa: El montaje detrás de la Operación Bastión</h1>';
+  '<h1 style="text-align:center">Rancho Calpa: La gentrificación de Airbnb en la CDMX</h1>';
 
 let bylineDiv = '<p style="font-size: 13px"> Investigación y visualización: Ivan Ortiz | Publicado el 7 de mayo de 2025 </p>';
 
